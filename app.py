@@ -69,7 +69,7 @@ nav_options = {
 }
 
 with st.sidebar:
-    logo = Image.open("logo1.png")
+    logo = Image.open("Logo1.png")
     st.image(logo, use_container_width=True)
     st.markdown("<div class='sidebar-title'>Navigation</div>", unsafe_allow_html=True)
     for label, icon in nav_options.items():
